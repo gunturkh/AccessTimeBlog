@@ -8,10 +8,8 @@ import rehypeRaw from "rehype-raw";
 const BlogDetails = () => {
     const params = useParams();
     const { slug } = params;
-    console.log("🚀 ~ BlogDetails ~ slug:", slug)
 
     const { data: blogDetails, isLoading: isBlogsLoading } = useGetBlogBySlug(slug as string);
-    console.log("🚀 ~ BlogDetails ~ blogDetails:", blogDetails)
 
     if (isBlogsLoading) {
         return <div>Loading...</div>;
@@ -19,22 +17,21 @@ const BlogDetails = () => {
 
     return (
         <main id="main-content" className="w-full flex-auto">
-            <article className="mx-auto max-w-4xl px-[24px] lg:px-[32px] mt-24 sm:mt-32 lg:mt-40">
+            <article className="mx-auto max-w-4xl px-[24px] lg:px-[32px] mt-36 sm:mt-32 lg:mt-40">
                 <div className="mx-auto max-w-2xl lg:max-w-none">
                     <div style={{ opacity: 1, transform: "none" }}>
                         <header className="mx-auto flex max-w-5xl flex-col text-center">
                             <h1 className="mt-6 font-display text-3xl xs:text-5xl font-bold tracking-tight text-dark [text-wrap:balance] sm:text-6xl">
                                 {blogDetails?.title}
                             </h1>
-                            <time dateTime="2025-08-15" className="order-first text-sm text-dark">
+                            <time dateTime="2025-08-15" className="order-first text-md font-bold text-dark">
                                 {new Date(blogDetails?.publishedAt || "").toLocaleDateString("en-US", {
                                     year: "numeric",
                                     month: "long",
                                     day: "numeric",
                                 })}
                             </time>
-                            <p className="mt-6 text-sm font-semibold text-dark">
-                                {/* by Prasaja Mukti, Accessibility UX Writer */}
+                            <p className="mt-6 text-md font-extrabold text-dark">
                                 {`${blogDetails?.author?.fullName},` || ""} {blogDetails?.author?.bio ? ` ${blogDetails.author.bio}` : ""}
                             </p>
                         </header>

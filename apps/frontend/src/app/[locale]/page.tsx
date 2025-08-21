@@ -12,7 +12,7 @@ export default function Home() {
   return (
 
     <main id="main-content" className="w-full flex-auto">
-      <div className="mx-auto max-w-4xl px-[24px] lg:px-[32px] mt-24 sm:mt-32 lg:mt-40">
+      <div className="mx-auto max-w-4xl px-[24px] lg:px-[32px] mt-36 sm:mt-32 lg:mt-40">
         <div className="mx-auto max-w-2xl lg:max-w-none">
           <div style={{ transform: "none", opacity: 1 }} className="animate-fade-in" data-animate="opacity: 1; transform: none;">
             <h1>

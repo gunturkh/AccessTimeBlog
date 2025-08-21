@@ -328,7 +328,7 @@ export default async function RootLayout({
                           <LocaleSwitcher />
                           <div className="flex items-center gap-x-8">
                             <Link
-                              className="inline-flex rounded-full px-4 py-3 text-md font-extrabold transition bg-dark text-white hover:bg-dark/90"
+                              className="inline-flex rounded-full px-2 py-1.5 text-sm md:px-4 md:py-3 md:text-md font-extrabold transition bg-dark text-white hover:bg-dark/90"
                               href="https://lens.accesstime.co"
                             >
                               <span className="relative top-px">
@@ -618,7 +618,7 @@ export default async function RootLayout({
                               </Link>
                               <div className="flex items-center gap-x-8">
                                 <Link
-                                  className="inline-flex rounded-full px-4 py-1.5 text-sm font-semibold transition bg-white text-dark hover:bg-neutral-200"
+                                  className="inline-flex rounded-full px-2 py-1.5 text-sm md:px-4 md:py-3 md:text-md font-extrabold transition bg-dark text-white hover:bg-dark/90"
                                   href="https://lens.accesstime.co"
                                 >
                                   <span className="relative top-px">
