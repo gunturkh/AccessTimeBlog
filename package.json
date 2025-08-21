@@ -1,0 +1,23 @@
+{
+  "name": "accesstime-blog-next-strapi-monorepo",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "^1.13.4"
+  },
+  "keywords": [],
+  "author": "Guntur Kurniawan Heryanto",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0"
+}

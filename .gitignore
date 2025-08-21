@@ -1,0 +1,8 @@
+node_modules/
+public/uploads/
+tmp/
+.next/
+.strapi/
+.tmp/
+docker/data/
+bun.lockb
