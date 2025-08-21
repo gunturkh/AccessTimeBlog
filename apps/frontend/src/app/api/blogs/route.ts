@@ -8,26 +8,8 @@ export async function GET(request: NextRequest) {
     const page = request.nextUrl.searchParams.get("page") ?? 1;
     const limit = request.nextUrl.searchParams.get("limit") ?? 25;
 
-    const headersList = await headers();
-    const token = headersList.get("Authorization")?.split(" ")[1];
-
-    if (!token) {
-      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-    }
-
-    const decoded = jwt.decode(token) as {
-      id: string;
-      exp: number;
-      iat: number;
-    };
-
-    if (decoded.exp < Date.now() / 1000) {
-      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-    }
-
     const baseUrl = `${process.env.BACKEND_URL}/blogs`;
     const searchParams = new URLSearchParams();
-
 
     searchParams.append("pagination[page]", page.toString());
     searchParams.append("pagination[pageSize]", limit.toString());
@@ -39,7 +21,6 @@ export async function GET(request: NextRequest) {
     const result = await fetch(`${baseUrl}?${searchParams.toString()}`, {
       method: "GET",
       headers: {
-        Authorization: `Bearer ${token}`,
         "Content-Type": "application/json",
       },
     });
