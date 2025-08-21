@@ -1,0 +1,21 @@
+{
+    "Blog": {
+        "description": "Menyelami dunia aksesibilitas web dan pengembangan perangkat lunak. Tim ahli kami berbagi wawasan, tips, dan praktik terbaik untuk membantu Anda menjadi pengembang yang lebih baik dan menciptakan pengalaman digital yang lebih inklusif.",
+        "readMore": "Baca selengkapnya",
+        "title": "Artikel dan berita terbaru",
+        "tryAccessLens": "Coba Access Lens"
+    },
+    "LocaleSwitcher": {
+        "label": "Ubah bahasa",
+        "locale": "{locale, select, id {🇮🇩 Indonesia} en {🇺🇸 English} other {Unknown}}"
+    },
+    "Footer": {
+        "Company": "Perusahaan",
+        "Connect": "Hubungi",
+        "ContactUs": "Hubungi kami",
+        "Email": "Alamat email",
+        "SignUp": "Daftar untuk buletin kami",
+        "Subscribe": "Berlangganan untuk mendapatkan berita, artikel, sumber daya, dan inspirasi terbaru.",
+        "Send": "Kirim"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "Blog": {
+        "description": "Dive into our world of web accessibility and software development. Our team of passionate experts shares insights, tips, and best practices to help you become a better developer and create more inclusive digital experiences.",
+        "readMore": "Read more",
+        "title": "The latest articles and news",
+        "tryAccessLens": "Try Access Lens"
+    },
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, id {🇮🇩 Indonesia} en {🇺🇸 English} other {Unknown}}"
+    },
+    "Footer": {
+        "Company": "Company",
+        "Connect": "Connect",
+        "ContactUs": "Contact us",
+        "Email": "Email address",
+        "SignUp": "Sign up for our newsletter",
+        "Subscribe": "Subscribe to get the latest news, articles, resources and inspiration.",
+        "Send": "Send"
+    }
+}
