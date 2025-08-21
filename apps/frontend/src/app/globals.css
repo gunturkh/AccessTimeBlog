@@ -7,11 +7,16 @@
 }
 
 @theme inline {
-  --font-display: var(--font-nunito);
+  --container-7xl: 80rem;
   --color-background: var(--background);
+  --color-dark: var(--dark);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-nunito);
   --font-mono: var(--font-nunito);
+  --font-display: var(--font-nunito);
+  --font-display--font-variation-settings: "wdth" 125; 
+  --text-2xl: 1.5rem;
+  --text-2xl--line-height: 2.25rem;
 }
 
 @media (prefers-color-scheme: dark) {

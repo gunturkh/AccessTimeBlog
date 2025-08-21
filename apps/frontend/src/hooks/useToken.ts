@@ -1,8 +1,6 @@
 "use client";
-import { AuthContext } from "@/contexts/AuthContext";
-import { useContext } from "react";
 
 export const useToken = () => {
-  const { userToken } = useContext(AuthContext);
+  const userToken = "";
   return userToken;
 };
