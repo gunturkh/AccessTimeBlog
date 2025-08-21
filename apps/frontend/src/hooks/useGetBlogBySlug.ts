@@ -6,8 +6,10 @@ export const useGetBlogBySlug = (slug: string) => {
   const fetchBlogBySlug = async () => {
     const response = await fetch(`/api/blogs/${slug}`, {
     });
+    console.log("🚀 ~ fetchBlogBySlug ~ response:", response)
     const data = (await response.json()) as BlogBySlugResponse;
-    return data;
+    console.log("🚀 ~ fetchBlogBySlug ~ data:", data)
+    return data.data?.[0];
   };
 
   const query = useQuery({

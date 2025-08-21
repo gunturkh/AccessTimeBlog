@@ -22,6 +22,6 @@ export type BlogResponse = {
 };
 
 export type BlogBySlugResponse = {
-  data: Blog | null;
+  data: Blog[] | null;
   meta: Meta;
 };

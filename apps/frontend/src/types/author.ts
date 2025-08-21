@@ -6,4 +6,10 @@ export type Author = {
   createdAt: string;
   updatedAt: string;
   publishedAt: string;
+  image: {
+    id: number;
+    documentId: string;
+    url: string;
+    alternativeText: string | null;
+  };
 };
