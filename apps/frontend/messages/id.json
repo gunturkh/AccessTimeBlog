@@ -1,7 +1,13 @@
 {
     "Blog": {
         "description": "Menyelami dunia aksesibilitas web dan pengembangan perangkat lunak. Tim ahli kami berbagi wawasan, tips, dan praktik terbaik untuk membantu Anda menjadi pengembang yang lebih baik dan menciptakan pengalaman digital yang lebih inklusif.",
+        "letsExplore": "Mari kita jelajahi bagaimana kita dapat membuatnya lebih aksesibel dan berdampak bersama.",
+        "loading": "Memuat lebih banyak blog...",
+        "moreArticles": "Artikel lainnya",
+        "noBlogFound": "Tidak ada posting blog lainnya ditemukan",
+        "pleaseWait": "Silakan tunggu saat lebih banyak posting blog sedang dimuat",
         "readMore": "Baca selengkapnya",
+        "tellUs": "Ceritakan tentang proyek Anda",
         "title": "Artikel dan berita terbaru",
         "tryAccessLens": "Coba Access Lens"
     },
@@ -10,12 +16,12 @@
         "locale": "{locale, select, id {🇮🇩 Indonesia} en {🇺🇸 English} other {Unknown}}"
     },
     "Footer": {
-        "Company": "Perusahaan",
-        "Connect": "Hubungi",
-        "ContactUs": "Hubungi kami",
-        "Email": "Alamat email",
-        "SignUp": "Daftar untuk buletin kami",
-        "Subscribe": "Berlangganan untuk mendapatkan berita, artikel, sumber daya, dan inspirasi terbaru.",
-        "Send": "Kirim"
+        "company": "Perusahaan",
+        "connect": "Hubungi",
+        "contactUs": "Hubungi kami",
+        "email": "Alamat email",
+        "signUp": "Daftar untuk buletin kami",
+        "subscribe": "Berlangganan untuk mendapatkan berita, artikel, sumber daya, dan inspirasi terbaru.",
+        "send": "Kirim"
     }
 }

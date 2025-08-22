@@ -648,7 +648,7 @@ export default async function RootLayout({
                           >
                             <li>
                               <div className="font-display text-base font-bold tracking-wider text-dark">
-                                {t("Footer.Company")}
+                                {t("Footer.company")}
                               </div>
                               <ul role="list" className="mt-4 text-sm text-dark">
                                 <li className="mt-4">
@@ -656,7 +656,7 @@ export default async function RootLayout({
                                     className="transition hover:text-dark/90"
                                     href="/contact"
                                   >
-                                    {t("Footer.ContactUs")}
+                                    {t("Footer.contactUs")}
                                   </Link>
                                 </li>
                                 <li className="mt-4">
@@ -671,7 +671,7 @@ export default async function RootLayout({
                             </li>
                             <li>
                               <div className="font-display text-base font-bold tracking-wider text-dark">
-                                {t("Footer.Connect")}
+                                {t("Footer.connect")}
                               </div>
                               <ul role="list" className="mt-4 text-sm text-dark">
                                 <li className="mt-4">
@@ -697,10 +697,10 @@ export default async function RootLayout({
                         <div className="flex lg:justify-end">
                           <form action="#" className="max-w-sm">
                             <h2 className="font-display text-base font-bold tracking-wider text-dark">
-                              {t("Footer.SignUp")}
+                              {t("Footer.signUp")}
                             </h2>
                             <p className="mt-4 text-sm text-dark">
-                              {t("Footer.Subscribe")}
+                              {t("Footer.subscribe")}
                             </p>
                             <div className="relative mt-6">
                               <div className="group relative z-0 transition-all focus-within:z-10">
@@ -718,7 +718,7 @@ export default async function RootLayout({
                                   htmlFor=":r1e:"
                                   className="pointer-events-none absolute left-6 top-1/2 -mt-3 origin-left text-base/6 text-dark transition-all duration-200 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:font-semibold peer-focus:text-neutral-950 peer-[:not(:placeholder-shown)]:-translate-y-4 peer-[:not(:placeholder-shown)]:scale-75 peer-[:not(:placeholder-shown)]:font-semibold peer-[:not(:placeholder-shown)]:text-neutral-950"
                                 >
-                                  {t("Footer.Email")}
+                                  {t("Footer.email")}
                                 </label>
                               </div>
                               <div
@@ -732,7 +732,7 @@ export default async function RootLayout({
                                 className="ml-auto mt-4 inline-flex rounded-full px-4 py-2 text-md font-extrabold transition bg-dark text-white hover:bg-dark/90"
                                 type="submit"
                               >
-                                <span className="relative top-px">{t("Footer.Send")}</span>
+                                <span className="relative top-px">{t("Footer.send")}</span>
                               </button>
                               <div
                                 aria-live="polite"

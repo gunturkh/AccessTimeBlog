@@ -1,7 +1,13 @@
 {
     "Blog": {
         "description": "Dive into our world of web accessibility and software development. Our team of passionate experts shares insights, tips, and best practices to help you become a better developer and create more inclusive digital experiences.",
+        "letsExplore": "Let’s explore how we can make it more accessible and impactful together.",
+        "loading": "Loading more blogs...",
+        "moreArticles": "More articles",
+        "noBlogFound": "No more blog post found",
+        "pleaseWait": "Please wait while more blog posts are being loaded",
         "readMore": "Read more",
+        "tellUs": "Tell us about your project",
         "title": "The latest articles and news",
         "tryAccessLens": "Try Access Lens"
     },
@@ -10,12 +16,12 @@
         "locale": "{locale, select, id {🇮🇩 Indonesia} en {🇺🇸 English} other {Unknown}}"
     },
     "Footer": {
-        "Company": "Company",
-        "Connect": "Connect",
-        "ContactUs": "Contact us",
-        "Email": "Email address",
-        "SignUp": "Sign up for our newsletter",
-        "Subscribe": "Subscribe to get the latest news, articles, resources and inspiration.",
-        "Send": "Send"
+        "company": "Company",
+        "connect": "Connect",
+        "contactUs": "Contact us",
+        "email": "Email address",
+        "signUp": "Sign up for our newsletter",
+        "subscribe": "Subscribe to get the latest news, articles, resources and inspiration.",
+        "send": "Send"
     }
 }
