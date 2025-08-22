@@ -97,7 +97,7 @@ docker exec -it docker-db-1 psql -U postgres -c "CREATE DATABASE todo;"
 
 ### 5. Import Strapi Data (Optional)
 
-There is already existing Strapi data to import, inside `apps/backend/accesstime-blog-import.tar.gz`
+There is already existing Strapi data to import, inside `apps/backend/accesstime-blog-import.tar`
 
 ```bash
 cd apps/backend
