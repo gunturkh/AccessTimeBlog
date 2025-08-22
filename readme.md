@@ -101,7 +101,7 @@ There is already existing Strapi data to import, inside `apps/backend/accesstime
 
 ```bash
 cd apps/backend
-npx strapi import --file accesstime-blog-import.tar.gz
+pnpm strapi import --file accesstime-blog-import.tar
 ```
 
 **Note:** Run this after starting the backend for the first time to ensure all tables are created.
