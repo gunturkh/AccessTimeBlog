@@ -92,12 +92,12 @@ Create the database in PostgreSQL:
 2. Create a new database named `todo`
 3. Or use psql command:
 ```bash
-docker exec -it docker_db_1 psql -U postgres -c "CREATE DATABASE todo;"
+docker exec -it docker-db-1 psql -U postgres -c "CREATE DATABASE todo;"
 ```
 
 ### 5. Import Strapi Data (Optional)
 
-If you have existing Strapi data to import:
+There is already existing Strapi data to import, inside `apps/backend/accesstime-blog-import.tar.gz`
 
 ```bash
 cd apps/backend
